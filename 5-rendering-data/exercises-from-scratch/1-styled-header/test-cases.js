@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * @jest-environment jsdom
+ */
+
 const testCases = [
     [2, 'toadstools and newts', 'fancy'],
     [1, 'BE BOLD', 'emphatic'],
